@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Env
+.env
+.env.local
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+
+# DB / data
+*.sqlite3
+data/eval/speech/*.wav
+data/eval/speech/*.mp3
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

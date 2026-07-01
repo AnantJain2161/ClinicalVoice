@@ -1,0 +1,464 @@
+[
+  {
+    "record_id": "fever_chills-000",
+    "scenario_id": "fever_chills",
+    "transcript": "bukhar sa lag raha hai 3 din se hai, paracetamol li thi.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "fever",
+          "duration": "3 days",
+          "severity": "moderate"
+        }
+      ],
+      "medications": [
+        {
+          "name": "paracetamol",
+          "dosage": "500mg",
+          "frequency": "twice daily"
+        }
+      ],
+      "diagnoses": [
+        {
+          "name": "fever with chills",
+          "snomed_code": "386661006"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "cough_cold-001",
+    "scenario_id": "cough_cold",
+    "transcript": "khansi 5 din se hai, sar mein bahut dard 2 din se hai.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "cough",
+          "duration": "5 days",
+          "severity": "mild"
+        },
+        {
+          "name": "headache",
+          "duration": "2 days",
+          "severity": "mild"
+        }
+      ],
+      "medications": [],
+      "diagnoses": [
+        {
+          "name": "upper respiratory infection",
+          "snomed_code": "54150009"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "diarrhea_dehydration-002",
+    "scenario_id": "diarrhea_dehydration",
+    "transcript": "ulti 1 din se hai, dast 1 din se hai, ORS ghol pilaya.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "vomiting",
+          "duration": "1 day",
+          "severity": "severe"
+        },
+        {
+          "name": "diarrhea",
+          "duration": "1 day",
+          "severity": "severe"
+        }
+      ],
+      "medications": [
+        {
+          "name": "ORS",
+          "dosage": null,
+          "frequency": "after every loose motion"
+        }
+      ],
+      "diagnoses": [
+        {
+          "name": "acute gastroenteritis",
+          "snomed_code": "25374005"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "pregnancy_swelling-003",
+    "scenario_id": "pregnancy_swelling",
+    "transcript": "pairon mein sujan 1 hafte se hai, sar dard 2 din se hai.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "swelling in legs",
+          "duration": "1 week",
+          "severity": "moderate"
+        },
+        {
+          "name": "headache",
+          "duration": "2 days",
+          "severity": "severe"
+        }
+      ],
+      "medications": [],
+      "diagnoses": [
+        {
+          "name": "pre-eclampsia risk",
+          "snomed_code": "398254007"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "pregnancy_bleeding-004",
+    "scenario_id": "pregnancy_bleeding",
+    "transcript": "neeche se bleeding ho rahi hai few ghante se hai.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "vaginal bleeding",
+          "duration": "few hours",
+          "severity": "severe"
+        }
+      ],
+      "medications": [],
+      "diagnoses": [
+        {
+          "name": "antepartum hemorrhage risk",
+          "snomed_code": "417981005"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "child_fever_rash-005",
+    "scenario_id": "child_fever_rash",
+    "transcript": "bukhar 2 din se hai, shareer par chhote chhote daane 1 din se hai, paracetamol li thi.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "fever",
+          "duration": "2 days",
+          "severity": "moderate"
+        },
+        {
+          "name": "rash",
+          "duration": "1 day",
+          "severity": "mild"
+        }
+      ],
+      "medications": [
+        {
+          "name": "paracetamol",
+          "dosage": "250mg",
+          "frequency": "as needed"
+        }
+      ],
+      "diagnoses": [
+        {
+          "name": "viral exanthem",
+          "snomed_code": "271807003"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "joint_pain_elderly-006",
+    "scenario_id": "joint_pain_elderly",
+    "transcript": "ghutno mein dard 3 hafte se hai, ibuprofen li thi.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "joint pain",
+          "duration": "3 weeks",
+          "severity": "moderate"
+        }
+      ],
+      "medications": [
+        {
+          "name": "ibuprofen",
+          "dosage": "400mg",
+          "frequency": "twice daily"
+        }
+      ],
+      "diagnoses": [
+        {
+          "name": "osteoarthritis",
+          "snomed_code": "396275006"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "chest_infection-007",
+    "scenario_id": "chest_infection",
+    "transcript": "khansi 1 hafte se hai, bukhar sa lag raha hai 4 din se hai, azithromycin ki dawai chalu ki.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "cough",
+          "duration": "1 week",
+          "severity": "severe"
+        },
+        {
+          "name": "fever",
+          "duration": "4 days",
+          "severity": "moderate"
+        }
+      ],
+      "medications": [
+        {
+          "name": "azithromycin",
+          "dosage": "500mg",
+          "frequency": "once daily"
+        }
+      ],
+      "diagnoses": [
+        {
+          "name": "lower respiratory tract infection",
+          "snomed_code": "50417007"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "fever_chills-008",
+    "scenario_id": "fever_chills",
+    "transcript": "bukhar sa lag raha hai 3 din se hai, PCM ki tablet khayi.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "fever",
+          "duration": "3 days",
+          "severity": "moderate"
+        }
+      ],
+      "medications": [
+        {
+          "name": "paracetamol",
+          "dosage": "500mg",
+          "frequency": "twice daily"
+        }
+      ],
+      "diagnoses": [
+        {
+          "name": "fever with chills",
+          "snomed_code": "386661006"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "cough_cold-009",
+    "scenario_id": "cough_cold",
+    "transcript": "khansi 5 din se hai, sar mein bahut dard 2 din se hai.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "cough",
+          "duration": "5 days",
+          "severity": "mild"
+        },
+        {
+          "name": "headache",
+          "duration": "2 days",
+          "severity": "mild"
+        }
+      ],
+      "medications": [],
+      "diagnoses": [
+        {
+          "name": "upper respiratory infection",
+          "snomed_code": "54150009"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "diarrhea_dehydration-010",
+    "scenario_id": "diarrhea_dehydration",
+    "transcript": "ulti aa rahi hai 1 din se hai, dast 1 din se hai, ORS ghol pilaya.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "vomiting",
+          "duration": "1 day",
+          "severity": "severe"
+        },
+        {
+          "name": "diarrhea",
+          "duration": "1 day",
+          "severity": "severe"
+        }
+      ],
+      "medications": [
+        {
+          "name": "ORS",
+          "dosage": null,
+          "frequency": "after every loose motion"
+        }
+      ],
+      "diagnoses": [
+        {
+          "name": "acute gastroenteritis",
+          "snomed_code": "25374005"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "pregnancy_swelling-011",
+    "scenario_id": "pregnancy_swelling",
+    "transcript": "pair mein sujan hai 1 hafte se hai, sar mein bahut dard 2 din se hai.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "swelling in legs",
+          "duration": "1 week",
+          "severity": "moderate"
+        },
+        {
+          "name": "headache",
+          "duration": "2 days",
+          "severity": "severe"
+        }
+      ],
+      "medications": [],
+      "diagnoses": [
+        {
+          "name": "pre-eclampsia risk",
+          "snomed_code": "398254007"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "pregnancy_bleeding-012",
+    "scenario_id": "pregnancy_bleeding",
+    "transcript": "neeche se bleeding ho rahi hai few ghante se hai.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "vaginal bleeding",
+          "duration": "few hours",
+          "severity": "severe"
+        }
+      ],
+      "medications": [],
+      "diagnoses": [
+        {
+          "name": "antepartum hemorrhage risk",
+          "snomed_code": "417981005"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "child_fever_rash-013",
+    "scenario_id": "child_fever_rash",
+    "transcript": "bukhar 2 din se hai, shareer par chhote chhote daane 1 din se hai, PCM ki tablet khayi.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "fever",
+          "duration": "2 days",
+          "severity": "moderate"
+        },
+        {
+          "name": "rash",
+          "duration": "1 day",
+          "severity": "mild"
+        }
+      ],
+      "medications": [
+        {
+          "name": "paracetamol",
+          "dosage": "250mg",
+          "frequency": "as needed"
+        }
+      ],
+      "diagnoses": [
+        {
+          "name": "viral exanthem",
+          "snomed_code": "271807003"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "joint_pain_elderly-014",
+    "scenario_id": "joint_pain_elderly",
+    "transcript": "ghutno mein dard 3 hafte se hai, ibuprofen li thi.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "joint pain",
+          "duration": "3 weeks",
+          "severity": "moderate"
+        }
+      ],
+      "medications": [
+        {
+          "name": "ibuprofen",
+          "dosage": "400mg",
+          "frequency": "twice daily"
+        }
+      ],
+      "diagnoses": [
+        {
+          "name": "osteoarthritis",
+          "snomed_code": "396275006"
+        }
+      ]
+    }
+  },
+  {
+    "record_id": "chest_infection-015",
+    "scenario_id": "chest_infection",
+    "transcript": "khich khich khansi 1 hafte se hai, bukhar 4 din se hai, azithromycin ki dawai chalu ki.",
+    "language": "hi-en",
+    "entities": {
+      "symptoms": [
+        {
+          "name": "cough",
+          "duration": "1 week",
+          "severity": "severe"
+        },
+        {
+          "name": "fever",
+          "duration": "4 days",
+          "severity": "moderate"
+        }
+      ],
+      "medications": [
+        {
+          "name": "azithromycin",
+          "dosage": "500mg",
+          "frequency": "once daily"
+        }
+      ],
+      "diagnoses": [
+        {
+          "name": "lower respiratory tract infection",
+          "snomed_code": "50417007"
+        }
+      ]
+    }
+  }
+]

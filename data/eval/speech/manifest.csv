@@ -1,0 +1,6 @@
+audio_path,reference_text,language
+audio/sample_001.wav,Patient reports fever for three days with chills.,en
+audio/sample_002.wav,"Cough and headache for five days, mild severity.",en
+audio/sample_003.wav,"Vomiting and diarrhea since yesterday, severe.",en
+audio/sample_004.wav,Swelling in legs for one week and severe headache.,en
+audio/sample_005.wav,"Joint pain for three weeks, took ibuprofen.",en
